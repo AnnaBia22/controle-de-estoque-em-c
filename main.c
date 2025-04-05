@@ -88,7 +88,7 @@ int main(){
             int quantidade;
             sscanf(linha, "%s %d", nome_item, &quantidade);
             printf("Nome: %s\n", nome_item);
-            printf("Quantidade: %d\n\n", quantidade);
+            printf("Quantidade: %d\n\n", &quantidade);
             estoque_vazio=0;
         }
         if (estoque_vazio) {
